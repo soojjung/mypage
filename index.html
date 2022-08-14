@@ -9,18 +9,24 @@
     <meta property="og:image" content="me.jpg" />
     <title>정수진</title>
     <style>
-      @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+      /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"); */
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,500&display=swap");
       * {
-        font-family: "Pretendard", serif;
+        /* font-family: "Pretendard", serif; */
+        font-family: "Playfair Display", serif;
       }
       body {
-        background-color: #fff4d7;
+        /* background-color: #fff4d7; */
+        background-color: #d8e9f8;
+        background-color: #eff4f8;
+        /* background-color: #ffffff; */
+        /* background-image: url("bubbles.png"); */
       }
       .profile {
         width: 100px;
         height: 100px;
         border-radius: 100%;
-        border: 1px solid black;
+        border: 1px solid #c4c8c9;
         background-image: url("me.jpg");
         background-position: center;
         background-size: cover;
@@ -29,7 +35,7 @@
         margin-top: 30px;
         margin-bottom: 10px;
 
-        color: #000000;
+        color: #282727;
         font-size: 18px;
         size: 20px;
       }
@@ -37,10 +43,13 @@
         margin-top: 0px;
         margin-bottom: 30px;
 
-        color: #000000;
+        color: #5e5e5f;
         font-size: 14px;
         font-weight: 400;
         size: 14px;
+      }
+      .bubble {
+        background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/325/bubbles_1fae7.png);
       }
       .wrap {
         display: flex;
@@ -63,13 +72,28 @@
         width: 320px;
         height: 59px;
 
-        border-radius: 16px;
-        background-color: white;
-        border: 1px solid #353432;
+        border-radius: 50px;
+        /* background-color: white; */
+        background: linear-gradient(
+          #c9ccce,
+          #d1dff8,
+          #e6f5fc,
+          #d8e9f8,
+          #cfdffb,
+          #cbdaf7,
+          #c2ceea,
+          #bcc4d8,
+          #c0c5d1,
+          #cfd2d3,
+          #fbfbfa,
+          #f6f6f5,
+          /* #f9f9f8, */ /* #f2f2f0, */ #f0f0ee
+        );
+        border: 1px solid #c7caca;
 
         font-size: 16px;
         font-weight: bold;
-        color: #000000;
+        color: #282727;
 
         text-decoration: none;
       }
@@ -82,18 +106,15 @@
     <div class="wrap">
       <div class="profile"></div>
       <h1 class="main">정수진</h1>
-      <p class="sub">프론트엔드 웹개발자 입니다!</p>
-      <a target="_blank" href="https://github.com/soojjung">깃허브</a>
-      <a target="_blank" href="https://www.instagram.com/soojjnng"
-        >인스타그램</a
-      >
-
+      <p class="sub">프론트엔드 웹개발자 <span class="bubble"></span></p>
+      <a target="_blank" href="https://github.com/soojjung">GitHub</a>
+      <a target="_blank" href="https://www.instagram.com/soojjnng">Instagram</a>
       <a
         target="_blank"
         href="https://youtube.com/channel/UCNpVNKpGf9C4-FdRuSZtJ4g"
-        >유튜브</a
+        >YouTube</a
       >
-      <a target="_blank" href="https://spartacodingclub.kr/">포트폴리오</a>
+      <a target="_blank" href="https://spartacodingclub.kr/">Portfolio</a>
     </div>
   </body>
 </html>
