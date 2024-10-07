@@ -1,3 +1,5 @@
-# 정수진의 프로필 페이지
+# 프론트엔드 정수진 프로필
 
-링크: https://soojjung.github.io/mypage/
+https://www.sooya.dev/
+
+<img src="./images/thumbnail.png" alt="logo">
