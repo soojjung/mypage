@@ -2,4 +2,4 @@
 
 https://www.sooya.dev/
 
-<img src="./images/thumbnail.png" alt="logo">
+<img src="./images/thumbnail.png" alt="thumbnail" width="280px">
